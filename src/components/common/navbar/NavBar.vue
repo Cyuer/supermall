@@ -8,14 +8,15 @@
 
 <script>
   export default {
-    name:"NavBar"
+    name: "NavBar"
   }
 </script>
 
 <style scoped>
   .nav-bar {
     display: flex;
-    line-height: 44px;      /* 要有内容才会显示 */
+    height: 44px;
+    line-height: 44px;
     text-align: center;
     box-shadow: 0 1px 1px rgba(100,100,100,.1);
   }
@@ -25,6 +26,6 @@
   }
 
   .center {
-    flex:1;
+    flex: 1;
   }
 </style>

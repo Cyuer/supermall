@@ -243,4 +243,3 @@
     background-color: rgba(212,62,46,1.0);
   }
 </style>
-

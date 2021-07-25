@@ -38,7 +38,10 @@ export default {
   },
   filters: {
     showDate: function(value) {
+      //1.将时间戳转成Date对象
       let date = new Date(value * 1000);
+      
+      //2.将date进行格式化
       return formatDate(date, "yyyy-MM-dd");
     }
   }
